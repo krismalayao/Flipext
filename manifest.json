@@ -6,8 +6,11 @@
     "permissions": [
         "sidePanel"
     ],
+    "background": {
+        "service_worker": "background.js"
+    },
     "action": {
-        "default_title": "Flipext"
+        "default_title": "A side panel will open."
     },
     "side_panel": {
         "default_path": "flipext.html"
