@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Flipext: Text Converter",
     "version": "1.0",
-    "description": "A Text Converter extension.",
+    "description": "Transform text instantly right from your browser's side panel. Easy to understand and works 100% offline.",
     "permissions": [
         "sidePanel",
         "clipboardRead",
