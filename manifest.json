@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Flipext: Text Converter",
+    "version": "1.0",
+    "description": "A Text Converter extension.",
+    "permissions": [
+        "sidePanel"
+    ],
+    "action": {
+        "default_title": "Flipext"
+    },
+    "side_panel": {
+        "default_path": "flipext.html"
+    }
+}
