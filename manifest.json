@@ -12,7 +12,17 @@
         "service_worker": "background.js"
     },
     "action": {
-        "default_title": "A side panel will open."
+        "default_title": "Open Flipext Side Panel",
+        "default_icon": {
+            "16": "resources/short_logo.png",
+            "48": "resources/short_logo.png",
+            "128": "resources/short_logo.png"
+        }
+    },
+    "icons": {
+        "16": "resources/short_logo.png",
+        "48": "resources/short_logo.png",
+        "128": "resources/short_logo.png"
     },
     "side_panel": {
         "default_path": "flipext.html"
