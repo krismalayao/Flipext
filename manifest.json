@@ -4,7 +4,9 @@
     "version": "1.0",
     "description": "A Text Converter extension.",
     "permissions": [
-        "sidePanel"
+        "sidePanel",
+        "clipboardRead",
+        "clipboardWrite"
     ],
     "background": {
         "service_worker": "background.js"
