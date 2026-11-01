@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="resources/logo.png" alt="Flipext Logo" class="logo"/>
+        </div>
+
+        <div class="input-group">
+            <textarea id="textInput" placeholder="Type or paste your text here..."></textarea>
+        </div>
+
+        <div class="button-row">
+            <button class="btn btn-secondary" id="pasteBtn">
+                Paste
+            </button>
+            <button class="btn btn-primary" id="copyBtn">
+                Copy
+            </button>
+        </div>
+
+        <div class="select-group">
+            <label for="caseOption">Transform Text</label>
+            
+            <div class="select-wrapper">
+                <select id="caseOption">
+                    <option value="" disabled selected>Select an option to transform text</option>
+                    <option value="uppercase">UPPERCASE</option>
+                    <option value="lowercase">lowercase</option>
+                    <option value="sentence">Sentence case</option>
+                    <option value="firstletter">First Letter</option>
+                </select>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        © 2026 Flipext. All rights reserved.
+    </footer>
+
+    <div class="toast" id="toast">Copied to clipboard!</div>
+
+    <script src="logic.js"></script>
+</body>
+
+</html>
